@@ -46,7 +46,7 @@ export default {
     grid-template-columns: 100%;
     grid-template-rows: 100px;
     grid-gap: 20px;
-    width: 50%;
+    width: auto;
   }
   .inputs {
     justify-self: end;

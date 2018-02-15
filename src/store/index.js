@@ -10,8 +10,9 @@ const store = () => new Vuex.Store({
     example: '',
     number: '',
     resultNumber: {
+      raw: '',
       country: '',
-      isValid: false,
+      isValid: '',
       international: '',
       E164: '',
       type: '',

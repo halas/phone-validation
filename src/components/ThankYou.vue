@@ -2,7 +2,10 @@
   <div class="thankYou">
     <h3>Thank you page confirmation:</h3>
     <span class="thankYou__label">Your phone number:</span>
-    <span class="thankYou__number">{{resultNumber.international}}</span>
+    <span
+      class="thankYou__number"
+    >{{resultNumber.international ? resultNumber.international : resultNumber.raw }}
+    </span>
 
   </div>
 </template>

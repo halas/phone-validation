@@ -4,8 +4,9 @@
   <pre class="ResultsField">
     <p>Phone nr: (international): {{ resultNumber.international }}</p>
     <p>Phone nr: (E.164 format): {{ resultNumber.E164 }}</p>
+    <p>Phone nr given by customr: {{ resultNumber.raw }}</p>
     <p>Country: {{ resultNumber.country }}</p>
-    <p>Number Type: {{ resultNumber.type }}</p>
+    <p>Is probably valid: {{ resultNumber.isValid }}</p>
   </pre>
 </div>
 </template>
